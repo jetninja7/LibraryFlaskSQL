@@ -9,6 +9,7 @@
 {% if books == []: %}
 <p>Library is empty.</p>
 {% endif %}
+<h2>Books are present in library</h2>
     <ul>
     {% for book in books %}
     <li>{{book.title}} - {{book.author}} - {{book.rating}}/5</li>
